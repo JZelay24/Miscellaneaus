@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <!-------Open and close buttons------>
+
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="openButton"> <img src="hamburguer.png" > </i>
+        <i class="closeButton">  <img src="cancel.webp" ></i>
+    </label>
+
+
+    <!-----Side Menu Div----->
+    <div class="sideMenu">
+        <header id="header">Hellos</header>
+
+        <ul class="menuItems">
+            <div class="subMenuWrapper">
+                <li tabindex="0"> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Dashboard </a> </li> 
+                <!---SubMenu Items--->
+                <div class="subMenuDiv">
+                    <ul class="subMenu">
+                        <li>ASD</li>
+                        <li>DSA</li>
+                        <li> QWE</li>
+                    </ul>
+                </div>
+            </div>
+
+            <li> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Home</a> </li>
+            <li> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Referrals</a></li>
+            <li> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Account</a></li>
+            <li> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Home</a> </li>
+            <li> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Referrals</a></li>
+            <li> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Account</a></li>
+            <li> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Home</a> </li>
+            <li> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Referrals</a></li>
+            <li> <a> <i> <img class="chainIcon" src="chainIcon.png" ></i> Account</a></li>
+        </ul>
+
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
